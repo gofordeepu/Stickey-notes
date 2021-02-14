@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(255, 254, 254);
+}
+#add-btn {
+  height: 2.5em;
+  width: 8em;
+  background-color: yellow;
+  color: orangered;
+  font-family: "Reggae One", cursive;
+}
+#add-btn:hover {
+  background-color: yellowgreen;
+  color: yellow;
+}
+#app-title {
+  color: yellow;
+  font-family: "Reggae One", cursive;
+  border-color: aqua;
+}
+#note-area {
+  margin: 1em;
+}
+
+.main-div {
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 1em;
+}
+.card img {
+  height: 2em;
+  width: 2em;
+}
+.card-header {
+  display: flex;
+  float: right;
+  background-color: yellow;
+}
+textarea {
+  padding: 1em;
+  font-family: "Reggae One", cursive;
+  background-color: rgb(65, 255, 255);
+  color: orangered;
+}
+.icon {
+  padding: 0.5em;
+}
+.icon:hover {
+  background-color: orangered;
+}
+
+@media (max-width: 640px) {
+  .main-div {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css">
+    <link rel="icon" href="./post-it.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky notes</title>
+</head>
+<body>
+    <!-- header -->
+<header class="text-gray-600 body-font" style="background-color: orangered; color: yellowgreen;">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <img src="./notes.png" alt="" style="height: 3.5em; width: 3.5em;">
+      <span class="ml-6 text-xl" id="app-title">Deepu Notes</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"></nav>
+    <button id="add-btn" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Add notes 
+     <img src="./add.png" alt="" style="height: 1em; width: 1em; padding: 2px;">
+    </button>
+  </div>
+</header>
+
+
+<!-- section -->
+
+<section id="note-area">
+    <div class="main-div" id="main-div">
+    </div>
+  
+</section>
+
+<script src="action.js"></script>
+</body>
+</html>
